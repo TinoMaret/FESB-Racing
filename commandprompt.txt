@@ -1,0 +1,50 @@
+    1  free
+    2  hostname
+    3  cat /proc/meminfo
+    4  df /h
+    5  df -h
+    6  hostname -I
+    7  ipconfig
+    8  iconfig
+    9  ifconfig
+   10  date
+   11  raspi-config
+   12  sudo raspi-config
+   13  ls
+   14  cd Desktop
+   15  touch example.txt
+   16  echo "text" > example
+   17  echo "text2" > example.txt
+   18  cat example
+   19  cat example.txt
+   20  mkdir dri1
+   21  mv example /dri1
+   22  sudo mv example /dri1
+   23  ls
+   24  ls dri1
+   25  ls /dri1
+   26  ls -d /dri1
+   27  ls -ld
+   28  ls -ld ./dri1
+   29  ls -d ./dri1
+   30  pwd
+   31  ls -d /home/tino/Desktop/dri1
+   32  cd ./dri1
+   33  ls
+   34  sudo mv example.txt ./dri1
+   35  cd ..
+   36  sudo mv example.txt ./dri1
+   37  cd dri1
+   38  ls
+   39  cd ..
+   40  ls -ld ./dri1
+   41  ls -d ./dri1
+   42  ls /l ./dri1
+   43  ls -l ./dri1
+   44  prompt > log.txt
+   45  export 
+   46  .bash_history
+   47  cat .bash_history
+   48  history -a
+   49  history
+   50  history > commandprompt.txt
