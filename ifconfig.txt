@@ -1,0 +1,68 @@
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::4453:d87b:ae84:7722  prefixlen 64  scopeid 0x20<link>
+        inet6 fd00::9c47:2002:630d:3d4e  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:a9:8e:87  txqueuelen 1000  (Ethernet)
+        RX packets 2100  bytes 2677584 (2.5 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 816  bytes 59349 (57.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 25  bytes 2683 (2.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 25  bytes 2683 (2.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vcan0: flags=193<UP,RUNNING,NOARP>  mtu 72
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 4210  bytes 30047 (29.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4210  bytes 30047 (29.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vcan1: flags=193<UP,RUNNING,NOARP>  mtu 72
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        
+Nakon pokretanja cangen vcan1 u drugom terminalu:
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::4453:d87b:ae84:7722  prefixlen 64  scopeid 0x20<link>
+        inet6 fd00::9c47:2002:630d:3d4e  prefixlen 64  scopeid 0x0<global>
+        ether 08:00:27:a9:8e:87  txqueuelen 1000  (Ethernet)
+        RX packets 2100  bytes 2677584 (2.5 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 816  bytes 59349 (57.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 25  bytes 2683 (2.6 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 25  bytes 2683 (2.6 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vcan0: flags=193<UP,RUNNING,NOARP>  mtu 72
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 4210  bytes 30047 (29.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4210  bytes 30047 (29.3 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vcan1: flags=193<UP,RUNNING,NOARP>  mtu 72
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 49  bytes 269 (269.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 49  bytes 269 (269.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
