@@ -1,0 +1,3 @@
+Slušam CAN poruke...
+Poruka poslana: Timestamp:        0.000000    ID:      123    S Rx                DL:  4    11 22 33 44
+Primljena poruka: Timestamp: 1735668915.130794    ID:      123    S Tx                DL:  4    11 22 33 44                 Channel: vcan0
